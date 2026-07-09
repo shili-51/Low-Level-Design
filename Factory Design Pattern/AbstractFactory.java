@@ -1,3 +1,8 @@
+AbstractFactory (ShapeFactory interface)
+ ├── TwoDShapeFactory   → creates Circle2D, Rectangle2D
+ └── ThreeDShapeFactory → creates Circle3D (Sphere), Rectangle3D (Cuboid)
+
+
 // ---- Product interface ----
 interface Shape {
     void draw();
